@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7354F74181279E500022157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7354F73181279E500022157 /* UIKit.framework */; };
+		C7354F76181279E500022157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7354F75181279E500022157 /* Foundation.framework */; };
+		C7354F78181279E500022157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7354F77181279E500022157 /* CoreGraphics.framework */; };
+		C7354F7E181279E500022157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7354F7C181279E500022157 /* InfoPlist.strings */; };
+		C7354F80181279E500022157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7354F7F181279E500022157 /* main.m */; };
+		C7354F84181279E500022157 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7354F83181279E500022157 /* BIDAppDelegate.m */; };
+		C7354F87181279E500022157 /* BIDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7354F86181279E500022157 /* BIDFirstViewController.m */; };
+		C7354F8E181279E500022157 /* BIDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7354F8D181279E500022157 /* BIDSecondViewController.m */; };
+		C7354F95181279E500022157 /* BIDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7354F93181279E500022157 /* BIDFirstViewController.xib */; };
+		C7354F98181279E500022157 /* BIDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7354F96181279E500022157 /* BIDSecondViewController.xib */; };
+		C7354FB518127A4500022157 /* contacts_list_avatar_female.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA318127A4500022157 /* contacts_list_avatar_female.png */; };
+		C7354FB618127A4500022157 /* contacts_list_avatar_female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA418127A4500022157 /* contacts_list_avatar_female@2x.png */; };
+		C7354FB718127A4500022157 /* contacts_list_avatar_male.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA518127A4500022157 /* contacts_list_avatar_male.png */; };
+		C7354FB818127A4500022157 /* contacts_list_avatar_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA618127A4500022157 /* contacts_list_avatar_male@2x.png */; };
+		C7354FB918127A4500022157 /* contacts_list_avatar_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA718127A4500022157 /* contacts_list_avatar_unknown.png */; };
+		C7354FBA18127A4500022157 /* contacts_list_avatar_unknown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA818127A4500022157 /* contacts_list_avatar_unknown@2x.png */; };
+		C7354FBB18127A4500022157 /* contacts_list_call_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FA918127A4500022157 /* contacts_list_call_forward.png */; };
+		C7354FBC18127A4500022157 /* contacts_list_call_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAA18127A4500022157 /* contacts_list_call_forward@2x.png */; };
+		C7354FBD18127A4500022157 /* contacts_list_status_away.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAB18127A4500022157 /* contacts_list_status_away.png */; };
+		C7354FBE18127A4500022157 /* contacts_list_status_away@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAC18127A4500022157 /* contacts_list_status_away@2x.png */; };
+		C7354FBF18127A4500022157 /* contacts_list_status_busy.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAD18127A4500022157 /* contacts_list_status_busy.png */; };
+		C7354FC018127A4500022157 /* contacts_list_status_busy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAE18127A4500022157 /* contacts_list_status_busy@2x.png */; };
+		C7354FC118127A4500022157 /* contacts_list_status_offline.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FAF18127A4500022157 /* contacts_list_status_offline.png */; };
+		C7354FC218127A4500022157 /* contacts_list_status_offline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FB018127A4500022157 /* contacts_list_status_offline@2x.png */; };
+		C7354FC318127A4500022157 /* contacts_list_status_online.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FB118127A4500022157 /* contacts_list_status_online.png */; };
+		C7354FC418127A4500022157 /* contacts_list_status_online@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FB218127A4500022157 /* contacts_list_status_online@2x.png */; };
+		C7354FC518127A4500022157 /* contacts_list_status_pending.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FB318127A4500022157 /* contacts_list_status_pending.png */; };
+		C7354FC618127A4500022157 /* contacts_list_status_pending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7354FB418127A4500022157 /* contacts_list_status_pending@2x.png */; };
+		C7354FCC18127E7000022157 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7354FCB18127E7000022157 /* ContactCell.m */; };
+		C7354FCE18127E8C00022157 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7354FCD18127E8C00022157 /* ContactCell.xib */; };
+		C7354FE518146DC000022157 /* StatusData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7354FE418146DC000022157 /* StatusData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7354F6F181279E500022157 /* Roster_WOOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roster_WOOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7354F73181279E500022157 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7354F75181279E500022157 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7354F77181279E500022157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7354F7B181279E500022157 /* Roster_WOOW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roster_WOOW-Info.plist"; sourceTree = "<group>"; };
+		C7354F7D181279E500022157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7354F7F181279E500022157 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7354F81181279E500022157 /* Roster_WOOW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roster_WOOW-Prefix.pch"; sourceTree = "<group>"; };
+		C7354F82181279E500022157 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		C7354F83181279E500022157 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		C7354F85181279E500022157 /* BIDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDFirstViewController.h; sourceTree = "<group>"; };
+		C7354F86181279E500022157 /* BIDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDFirstViewController.m; sourceTree = "<group>"; };
+		C7354F8C181279E500022157 /* BIDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDSecondViewController.h; sourceTree = "<group>"; };
+		C7354F8D181279E500022157 /* BIDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDSecondViewController.m; sourceTree = "<group>"; };
+		C7354F94181279E500022157 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDFirstViewController.xib; sourceTree = "<group>"; };
+		C7354F97181279E500022157 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDSecondViewController.xib; sourceTree = "<group>"; };
+		C7354FA318127A4500022157 /* contacts_list_avatar_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_avatar_female.png; sourceTree = "<group>"; };
+		C7354FA418127A4500022157 /* contacts_list_avatar_female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_avatar_female@2x.png"; sourceTree = "<group>"; };
+		C7354FA518127A4500022157 /* contacts_list_avatar_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_avatar_male.png; sourceTree = "<group>"; };
+		C7354FA618127A4500022157 /* contacts_list_avatar_male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_avatar_male@2x.png"; sourceTree = "<group>"; };
+		C7354FA718127A4500022157 /* contacts_list_avatar_unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_avatar_unknown.png; sourceTree = "<group>"; };
+		C7354FA818127A4500022157 /* contacts_list_avatar_unknown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_avatar_unknown@2x.png"; sourceTree = "<group>"; };
+		C7354FA918127A4500022157 /* contacts_list_call_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_call_forward.png; sourceTree = "<group>"; };
+		C7354FAA18127A4500022157 /* contacts_list_call_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_call_forward@2x.png"; sourceTree = "<group>"; };
+		C7354FAB18127A4500022157 /* contacts_list_status_away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_status_away.png; sourceTree = "<group>"; };
+		C7354FAC18127A4500022157 /* contacts_list_status_away@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_status_away@2x.png"; sourceTree = "<group>"; };
+		C7354FAD18127A4500022157 /* contacts_list_status_busy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_status_busy.png; sourceTree = "<group>"; };
+		C7354FAE18127A4500022157 /* contacts_list_status_busy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_status_busy@2x.png"; sourceTree = "<group>"; };
+		C7354FAF18127A4500022157 /* contacts_list_status_offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_status_offline.png; sourceTree = "<group>"; };
+		C7354FB018127A4500022157 /* contacts_list_status_offline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_status_offline@2x.png"; sourceTree = "<group>"; };
+		C7354FB118127A4500022157 /* contacts_list_status_online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_status_online.png; sourceTree = "<group>"; };
+		C7354FB218127A4500022157 /* contacts_list_status_online@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_status_online@2x.png"; sourceTree = "<group>"; };
+		C7354FB318127A4500022157 /* contacts_list_status_pending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts_list_status_pending.png; sourceTree = "<group>"; };
+		C7354FB418127A4500022157 /* contacts_list_status_pending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_list_status_pending@2x.png"; sourceTree = "<group>"; };
+		C7354FCA18127E7000022157 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		C7354FCB18127E7000022157 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		C7354FCD18127E8C00022157 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		C7354FE418146DC000022157 /* StatusData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatusData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7354F6C181279E500022157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7354F74181279E500022157 /* UIKit.framework in Frameworks */,
+				C7354F76181279E500022157 /* Foundation.framework in Frameworks */,
+				C7354F78181279E500022157 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7354F64181279E500022157 = {
+			isa = PBXGroup;
+			children = (
+				C7354F79181279E500022157 /* Roster_WOOW */,
+				C7354F72181279E500022157 /* Frameworks */,
+				C7354F70181279E500022157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7354F70181279E500022157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F6F181279E500022157 /* Roster_WOOW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7354F72181279E500022157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F73181279E500022157 /* UIKit.framework */,
+				C7354F75181279E500022157 /* Foundation.framework */,
+				C7354F77181279E500022157 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7354F79181279E500022157 /* Roster_WOOW */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F82181279E500022157 /* BIDAppDelegate.h */,
+				C7354F83181279E500022157 /* BIDAppDelegate.m */,
+				C7354FC818127B7700022157 /* 1st Tab */,
+				C7354FC918127B9300022157 /* 2nd Tab */,
+				C7354FA218127A4500022157 /* resources */,
+				C7354F7A181279E500022157 /* Supporting Files */,
+			);
+			path = Roster_WOOW;
+			sourceTree = "<group>";
+		};
+		C7354F7A181279E500022157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F7B181279E500022157 /* Roster_WOOW-Info.plist */,
+				C7354F7C181279E500022157 /* InfoPlist.strings */,
+				C7354F7F181279E500022157 /* main.m */,
+				C7354F81181279E500022157 /* Roster_WOOW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7354FA218127A4500022157 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7354FA318127A4500022157 /* contacts_list_avatar_female.png */,
+				C7354FA418127A4500022157 /* contacts_list_avatar_female@2x.png */,
+				C7354FA518127A4500022157 /* contacts_list_avatar_male.png */,
+				C7354FA618127A4500022157 /* contacts_list_avatar_male@2x.png */,
+				C7354FA718127A4500022157 /* contacts_list_avatar_unknown.png */,
+				C7354FA818127A4500022157 /* contacts_list_avatar_unknown@2x.png */,
+				C7354FA918127A4500022157 /* contacts_list_call_forward.png */,
+				C7354FAA18127A4500022157 /* contacts_list_call_forward@2x.png */,
+				C7354FAB18127A4500022157 /* contacts_list_status_away.png */,
+				C7354FAC18127A4500022157 /* contacts_list_status_away@2x.png */,
+				C7354FAD18127A4500022157 /* contacts_list_status_busy.png */,
+				C7354FAE18127A4500022157 /* contacts_list_status_busy@2x.png */,
+				C7354FAF18127A4500022157 /* contacts_list_status_offline.png */,
+				C7354FB018127A4500022157 /* contacts_list_status_offline@2x.png */,
+				C7354FB118127A4500022157 /* contacts_list_status_online.png */,
+				C7354FB218127A4500022157 /* contacts_list_status_online@2x.png */,
+				C7354FB318127A4500022157 /* contacts_list_status_pending.png */,
+				C7354FB418127A4500022157 /* contacts_list_status_pending@2x.png */,
+				C7354FE418146DC000022157 /* StatusData.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		C7354FC818127B7700022157 /* 1st Tab */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F85181279E500022157 /* BIDFirstViewController.h */,
+				C7354F86181279E500022157 /* BIDFirstViewController.m */,
+				C7354F93181279E500022157 /* BIDFirstViewController.xib */,
+			);
+			name = "1st Tab";
+			sourceTree = "<group>";
+		};
+		C7354FC918127B9300022157 /* 2nd Tab */ = {
+			isa = PBXGroup;
+			children = (
+				C7354F8C181279E500022157 /* BIDSecondViewController.h */,
+				C7354F8D181279E500022157 /* BIDSecondViewController.m */,
+				C7354F96181279E500022157 /* BIDSecondViewController.xib */,
+				C7354FCA18127E7000022157 /* ContactCell.h */,
+				C7354FCB18127E7000022157 /* ContactCell.m */,
+				C7354FCD18127E8C00022157 /* ContactCell.xib */,
+			);
+			name = "2nd Tab";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7354F6E181279E500022157 /* Roster_WOOW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7354F9B181279E500022157 /* Build configuration list for PBXNativeTarget "Roster_WOOW" */;
+			buildPhases = (
+				C7354F6B181279E500022157 /* Sources */,
+				C7354F6C181279E500022157 /* Frameworks */,
+				C7354F6D181279E500022157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roster_WOOW;
+			productName = Roster_WOOW;
+			productReference = C7354F6F181279E500022157 /* Roster_WOOW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7354F66181279E500022157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C7354F69181279E500022157 /* Build configuration list for PBXProject "Roster_WOOW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7354F64181279E500022157;
+			productRefGroup = C7354F70181279E500022157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7354F6E181279E500022157 /* Roster_WOOW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7354F6D181279E500022157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7354F7E181279E500022157 /* InfoPlist.strings in Resources */,
+				C7354F95181279E500022157 /* BIDFirstViewController.xib in Resources */,
+				C7354F98181279E500022157 /* BIDSecondViewController.xib in Resources */,
+				C7354FB518127A4500022157 /* contacts_list_avatar_female.png in Resources */,
+				C7354FB618127A4500022157 /* contacts_list_avatar_female@2x.png in Resources */,
+				C7354FB718127A4500022157 /* contacts_list_avatar_male.png in Resources */,
+				C7354FB818127A4500022157 /* contacts_list_avatar_male@2x.png in Resources */,
+				C7354FB918127A4500022157 /* contacts_list_avatar_unknown.png in Resources */,
+				C7354FBA18127A4500022157 /* contacts_list_avatar_unknown@2x.png in Resources */,
+				C7354FBB18127A4500022157 /* contacts_list_call_forward.png in Resources */,
+				C7354FBC18127A4500022157 /* contacts_list_call_forward@2x.png in Resources */,
+				C7354FBD18127A4500022157 /* contacts_list_status_away.png in Resources */,
+				C7354FBE18127A4500022157 /* contacts_list_status_away@2x.png in Resources */,
+				C7354FBF18127A4500022157 /* contacts_list_status_busy.png in Resources */,
+				C7354FC018127A4500022157 /* contacts_list_status_busy@2x.png in Resources */,
+				C7354FC118127A4500022157 /* contacts_list_status_offline.png in Resources */,
+				C7354FC218127A4500022157 /* contacts_list_status_offline@2x.png in Resources */,
+				C7354FC318127A4500022157 /* contacts_list_status_online.png in Resources */,
+				C7354FC418127A4500022157 /* contacts_list_status_online@2x.png in Resources */,
+				C7354FC518127A4500022157 /* contacts_list_status_pending.png in Resources */,
+				C7354FC618127A4500022157 /* contacts_list_status_pending@2x.png in Resources */,
+				C7354FCE18127E8C00022157 /* ContactCell.xib in Resources */,
+				C7354FE518146DC000022157 /* StatusData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7354F6B181279E500022157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7354F80181279E500022157 /* main.m in Sources */,
+				C7354F84181279E500022157 /* BIDAppDelegate.m in Sources */,
+				C7354F87181279E500022157 /* BIDFirstViewController.m in Sources */,
+				C7354F8E181279E500022157 /* BIDSecondViewController.m in Sources */,
+				C7354FCC18127E7000022157 /* ContactCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7354F7C181279E500022157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7354F7D181279E500022157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7354F93181279E500022157 /* BIDFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7354F94181279E500022157 /* en */,
+			);
+			name = BIDFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		C7354F96181279E500022157 /* BIDSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7354F97181279E500022157 /* en */,
+			);
+			name = BIDSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7354F99181279E500022157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7354F9A181279E500022157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7354F9C181279E500022157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster_WOOW/Roster_WOOW-Prefix.pch";
+				INFOPLIST_FILE = "Roster_WOOW/Roster_WOOW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7354F9D181279E500022157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster_WOOW/Roster_WOOW-Prefix.pch";
+				INFOPLIST_FILE = "Roster_WOOW/Roster_WOOW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7354F69181279E500022157 /* Build configuration list for PBXProject "Roster_WOOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7354F99181279E500022157 /* Debug */,
+				C7354F9A181279E500022157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7354F9B181279E500022157 /* Build configuration list for PBXNativeTarget "Roster_WOOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7354F9C181279E500022157 /* Debug */,
+				C7354F9D181279E500022157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7354F66181279E500022157 /* Project object */;
+}

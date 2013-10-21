@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Statuses</key>
+	<dict>
+		<key>away</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_status_away</string>
+			<key>message</key>
+			<string>Away</string>
+		</dict>
+		<key>busy</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_status_busy</string>
+			<key>message</key>
+			<string>Busy</string>
+		</dict>
+		<key>online</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_status_online</string>
+			<key>message</key>
+			<string>Availabe</string>
+		</dict>
+		<key>offline</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_status_offline</string>
+			<key>message</key>
+			<string>Offline</string>
+		</dict>
+		<key>pending</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_status_pending</string>
+			<key>message</key>
+			<string>Pending</string>
+		</dict>
+		<key>callforwarding</key>
+		<dict>
+			<key>icon_file</key>
+			<string>contacts_list_call_forward</string>
+			<key>message</key>
+			<string>Call Forward</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
